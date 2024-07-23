@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.nav {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    background-color: #100720;
+    width: 98vw;
+    position: sticky;
+
+}
+
+.undernav {
+    background-image: radial-gradient(circle farthest-corner at 50% 50%, rgb(225, 124, 220) 30.8%, rgb(226, 155, 54) 17.8%, rgba(2, 245, 255, 1)100.2%);
+    filter: blur(0px);
+    color: rgb(1, 12, 12);
+    font-weight: 600;
+    font-size: medium;
+    width: 10vw;
+
+}
+
+.logo {
+    border: 2px solid #100720;
+    border: 20px;
+}
+
+.afternav {
+    border: 3px solid rgb(34, 105, 163);
+    width: 98vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #100720;
+
+
+}
+
+.image {
+    width: 17vw;
+    border: 3px solid rgb(250, 70, 76);
+    height: 35vh;
+    background-color: rgb(255, 225, 0);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image>img {
+    width: 17vw;
+    height: 35vh;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.name {
+    border: 2px solid purple;
+    /* color: rgb(11, 19, 12); */
+    width: 50vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #100720;
+    display: flex;
+    flex-direction: column;
+    text-decoration: 2px underline;
+
+
+
+}
+
+.aftername {
+    /* background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(255, 94, 247, 1) 30.8%, rgb(226, 155, 54) 17.8%, rgba(2, 245, 255, 1)100.2%);
+    filter: blur(0px);  */
+    color: #9a68f0bf;
+    font-size: x-large;
+    font-style: italic;
+    text-decoration: 2px rgb(255, 0, 204) underline;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+
+.page {
+    font-size: x-large;
+    font-weight: 800;
+    color: blueviolet
+        /* background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(255, 94, 247, 1) 30.8%, rgb(226, 155, 54) 17.8%, rgba(2, 245, 255, 1)100.2%);
+    filter: blur(1px); */
+
+}
+
+.skill {
+    border: 2px solid black;
+    width: 92vw;
+    height: auto;
+    display: flex;
+}
+
+.circle {
+    border: 2px solid rgb(122, 91, 225);
+    width: 11vw;
+    height: 8vh;
+    border-radius: 70%;
+    color: black;
+    background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(255, 94, 247, 1) 30.8%, rgb(226, 155, 54) 17.8%, rgba(2, 245, 255, 1)100.2%);
+    filter: blur(px);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 27px;
+    margin: 50px;
+
+}
+
+.second {
+    border: 2px solid orange;
+    width: 98vw;
+    height: 70vh;
+    display: flex;
+    position: relative;
+    background-color: #ecd586;
+
+}
+
+.firstone {
+    border: 2px solid black;
+    width: 19vw;
+    height: 17vh;
+    position: absolute;
+    top: 9vh;
+    right: 4vw
+}
+
+.secondone {
+    border: 2px solid black;
+    width: 21vw;
+    height: 61vh;
+    position: absolute;
+    top: 22vh;
+    right: 91vh;
+
+}
+
+.content {
+    border: 2px solid black;
+    /* width:50vw;
+    height:40vh;
+    position:absolute;
+    left:10px;
+    top:70px; */
+    position: absolute;
+    width: 50vw;
+    height: 40vh;
+    top: 5vh;
+    left: 3vw;
+
+}
+
+.logo {
+    filter: invert(1);
+}
