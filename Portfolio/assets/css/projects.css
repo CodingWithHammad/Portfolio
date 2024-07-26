@@ -1,0 +1,103 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    background-color: bisque;
+    width:100vw;
+    height:100vh;
+    display: block;
+}
+.upone {
+    height:25vh;
+    width:100vw;
+    background-color: bisque;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: x-large;
+    /* padding-top: 0px; */
+    
+}
+.downone {
+    height:75vh;
+    width:100vw;
+    /* border:2px solid red; */
+    display: inline-flex;
+    position: relative;
+}
+
+
+.first {
+    width:25vw;
+    height:30vh;
+    border:2px solid black;
+    border-radius: 50px;
+    margin-top: 10vh;
+    margin-left: 6vw;
+}
+.first>video{
+    width:25vw;
+    height:30vh;
+    object-fit: cover;
+    border:2px solid black;
+    border-radius: 50px;
+}
+.firstone {
+    width:25vw;
+    height:25vh;
+    border:2px solid black;
+    border-radius: 20px;
+    margin-top: 40vh;
+    margin-left: -25vw;
+    display:flex;
+    justify-content: center;
+}
+
+.second {
+    width:25vw;
+    height:30vh;
+    border:2px solid black;
+    border-radius: 50px;
+    margin-top: 15vh;
+    margin-left: 6vw;
+}
+.second>video {
+    width:25vw;
+    height:30vh;
+    border:2px solid black;
+    border-radius: 50px;
+    object-fit: cover;
+
+
+}
+.secondone {
+    width:25vw;
+    height:25vh;
+    border:2px solid black;
+    border-radius: 20px;
+    margin-top: 45vh;
+    margin-left: -25vw;
+    display:flex;
+    justify-content: center;
+}
+.third {
+    width:25vw;
+    height:30vh;
+    border:2px solid black;
+    border-radius: 50px;
+    margin-top: 10vh;
+    margin-left: 6vw;
+}
+.thirdone {
+    width:25vw;
+    height:25vh;
+    border:2px solid black;
+    border-radius: 20px;
+    margin-top: 40vh;
+    margin-left: -25vw;
+    display:flex;
+    justify-content: center;
+}
