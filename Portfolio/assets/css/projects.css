@@ -49,11 +49,13 @@
     width:25vw;
     height:25vh;
     border:2px solid black;
-    border-radius: 20px;
-    margin-top: 40vh;
+    border-radius: 50px;
+    margin-top: 41vh;
     margin-left: -25vw;
     display:flex;
     justify-content: center;
+    align-items: center;
+    padding: 5px;
 }
 
 .second {
@@ -77,11 +79,13 @@
     width:25vw;
     height:25vh;
     border:2px solid black;
-    border-radius: 20px;
-    margin-top: 45vh;
+    border-radius: 50px;
+    margin-top: 46vh;
     margin-left: -25vw;
     display:flex;
     justify-content: center;
+    padding: 5px;
+    align-items: center;
 }
 .third {
     width:25vw;
@@ -95,8 +99,8 @@
     width:25vw;
     height:25vh;
     border:2px solid black;
-    border-radius: 20px;
-    margin-top: 40vh;
+    border-radius: 50px;
+    margin-top: 41vh;
     margin-left: -25vw;
     display:flex;
     justify-content: center;

@@ -1,0 +1,134 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: bisque;
+}
+.container {
+    width:100;
+    height:100;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    height: 19vh;
+    width:100;  
+}
+.nav{
+    height: 19vh;
+    width: 99%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: xx-large;  
+}
+.footer{
+    height: 60.6vh;
+    width:100;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.upone{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:100px ;
+}
+.one , .three ,.five{
+    width:20vw;
+    height: 10vh;
+    border: 2px solid rgb(238, 171, 61);
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .one:hover, .five:hover, .three:hover{
+    background-color: rgb(255, 218, 174);
+}
+.two , .four ,.six{
+    width:20vw;
+    height: 10vh;
+    border: 2px solid rgb(238, 171, 61);
+    border-radius:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .two:hover, .four:hover, .six:hover{
+    background-color: rgb(255, 218, 174);
+}
+.downone{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 100px;
+}
+.logo:hover{
+    border: 2px solid rgb(177, 61, 61);
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: rgb(255, 218, 174);;
+}
+.ul{
+    list-style-type: none;
+    display: flex;
+    column-gap: 80px;
+}
+.ul li {
+    font-size: larger;
+}
+.ul li:hover{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5vw;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.c-lang > img{
+    width: 40px;
+}
+
+.one{
+    display: flex;
+    column-gap: 10px;
+}
+
+.name{
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

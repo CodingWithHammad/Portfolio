@@ -3,52 +3,83 @@
     padding: 0;
     background-color: bisque;
 }
-
-.nav{
+.outer {
     display: flex;
-    height: 15vh;
-    justify-content: space-between;
+    flex-direction: column;
+}
+.top{
+    height: 14vh;
+}
+.unique{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 0px 5vw;
+    height: 85vh;
 }
-.ul{
+.left{
+    height: 19vh;
+    width: 35%;
     display: flex;
-    column-gap: 80px;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.ul li{
-    list-style-type: none;
-    font-size: x-large;
-    
-}
-
-.ul li a{
-text-decoration: none;
+.right{
+    height: 60.6vh;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .logo{
     width: 100px;
 }
-
-.container{
-    height: 84vh;
+.logo:hover{
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: rgb(255, 218, 174);;
+}
+.ul{
+    list-style-type: none;
     display: flex;
+    column-gap: 80px;
 }
-
-.right{
-    width: 70vw;
-    padding-right: 10vw;
+.ul li {
+    font-size: larger;
+}
+.ul li:hover{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0px 5vw;
+    align-items: center;
+    margin-bottom: 35px;
 }
+.upon{
+    display: flex;
+    flex-direction: row;
+    row-gap: 50px;
 
-.left{
-    width: 30vw;
 }
-.underleft > img {
-    width: 290px;
+.first > img{
+    width: 230px;
+    margin-right:10vw;
     height: auto;
+    border-radius: 30px;
+}
+.second > img{
+    width: 230px;
+    margin-left:13vw;
+    height:auto;
     border-radius: 30px;
 }
 
@@ -60,7 +91,7 @@ text-decoration: none;
 }
 
 
-.upone > img{
+.upone {
     width: 230px;
     height: auto;
     border-radius: 30px;
@@ -71,6 +102,8 @@ text-decoration: none;
     margin-bottom: 20px;
     font-size: x-large;
     border-radius: 30px;
+    text-transform: uppercase;
+  
 }
 
 .downone{
@@ -78,9 +111,18 @@ text-decoration: none;
     width: 50vw;
     padding: 15px;
     font-size: larger;
+    margin-top: 50px;
 }
 
 .downone:hover{
     background-color: rgb(255, 218, 174);
     cursor: pointer;
+}
+
+
+.upone{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    margin-bottom: 50px;
 }
