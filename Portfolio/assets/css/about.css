@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    cursor: url(../img/icons8-hand-cursor-48.png),auto;
+}
+.outer {
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    height: 14vh;
+}
+.unique{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+.left{
+    height: 19vh;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right{
+    height: 60.6vh;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 100px;
+}
+.logo:hover{
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: rgb(255, 218, 174);;
+}
+.ul{
+    list-style-type: none;
+    display: flex;
+    column-gap: 80px;
+}
+.ul li {
+    font-size: larger;
+}
+.ul li:hover{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5vw;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.upon{
+    display: flex;
+    flex-direction: row;
+    row-gap: 50px;
+
+}
+.first > img{
+    width: 230px;
+    margin-right:10vw;
+    height: auto;
+    border-radius: 30px;
+}
+.second > img{
+    width: 230px;
+    margin-left:15vw;
+    height:auto;
+    border-radius: 30px;
+}
+
+.underleft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10vh;
+}
+
+
+.upone {
+    width: 230px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: x-large;
+    border-radius: 30px;
+    text-transform: uppercase;
+  
+}
+.yup {
+    font-size: x-large;
+}
+
+.downone{
+    border-radius: 30px;
+    width: 50vw;
+    padding: 15px;
+    font-size: larger;
+    margin-top: 50px;
+}
+
+.downone:hover{
+    background-color: rgb(255, 218, 174);
+    cursor: pointer;
+}
+
+
+.upone{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    margin-bottom: 50px;
+}

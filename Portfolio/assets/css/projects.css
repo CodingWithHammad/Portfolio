@@ -1,17 +1,67 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
-}
-.container{
     background-color: bisque;
-    width:100vw;
-    height:100vh;
-    display: block;
+    cursor: url(../img/icons8-hand-cursor-48.png), auto;
+
 }
+
+.logo {
+    width: 100px;
+}
+
+.logo:hover {
+    border: 2px solid rgb(177, 61, 61);
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: rgb(255, 218, 174);
+}
+
+.ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 80px;
+}
+
+.ul li {
+    font-size: larger;
+}
+
+.ul li:hover {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5vw;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.container {
+    /* background-color: bisque; */
+    width: 100;
+    height: 100;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    height: 19vh;
+    width: 100;
+}
+
 .upone {
-    height:25vh;
-    width:100vw;
-    background-color: bisque;
+    height: 19vh;
+    width: 99%;
+    /* background-color: bisque; */
     /* border: 2px solid black; */
     display: flex;
     align-items: center;
@@ -19,11 +69,12 @@
     text-transform: uppercase;
     font-size: x-large;
     /* padding-top: 0px; */
-    
+
 }
+
 .downone {
-    height:75vh;
-    width:100vw;
+    height: 60.6vh;
+    width: 100;
     /* border:2px solid red; */
     display: inline-flex;
     position: relative;
@@ -31,77 +82,108 @@
 
 
 .first {
-    width:25vw;
-    height:30vh;
-    border:2px solid black;
+    width: 25vw;
+    height: 25vh;
+    border: 2px solid black;
     border-radius: 50px;
-    margin-top: 10vh;
+    /* margin-top: 4vh; */
     margin-left: 6vw;
 }
-.first>video{
-    width:25vw;
-    height:30vh;
+
+.first>video {
+    width: 25vw;
+    height: 25vh;
     object-fit: cover;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 50px;
 }
+
 .firstone {
-    width:25vw;
-    height:25vh;
-    border:2px solid black;
+    width: 25vw;
+    height: 25vh;
+    border: 3px solid rgb(255, 218, 174);
     border-radius: 50px;
-    margin-top: 41vh;
+    margin-top: 27vh;
     margin-left: -25vw;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
+    font-size: larger;
     padding: 5px;
 }
 
 .second {
-    width:25vw;
-    height:30vh;
-    border:2px solid black;
+    width: 25vw;
+    height: 25vh;
+    border: 2px solid black;
     border-radius: 50px;
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin-left: 6vw;
 }
+
 .second>video {
-    width:25vw;
-    height:30vh;
-    border:2px solid black;
+    width: 25vw;
+    height: 25vh;
+    border: 2px solid black;
     border-radius: 50px;
     object-fit: cover;
 
 
 }
+
 .secondone {
-    width:25vw;
-    height:25vh;
-    border:2px solid black;
+    width: 25vw;
+    height: 25vh;
+    border: 3px solid rgb(255, 218, 174);
     border-radius: 50px;
-    margin-top: 46vh;
+    margin-top: 32vh;
     margin-left: -25vw;
-    display:flex;
+    display: flex;
     justify-content: center;
     padding: 5px;
     align-items: center;
+    font-size: larger;
 }
+
 .third {
-    width:25vw;
-    height:30vh;
-    border:2px solid black;
+    width: 25vw;
+    height: 25vh;
+    border: 2px solid black;
     border-radius: 50px;
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     margin-left: 6vw;
+
 }
-.thirdone {
-    width:25vw;
-    height:25vh;
-    border:2px solid black;
+
+.third>video {
+    width: 25vw;
+    height: 25vh;
+    object-fit: cover;
+    border: 2px solid black;
     border-radius: 50px;
-    margin-top: 41vh;
+}
+
+.thirdone {
+    width: 25vw;
+    height: 25vh;
+    border: 3px solid rgb(255, 218, 174);
+    border-radius: 50px;
+    margin-top: 27vh;
     margin-left: -25vw;
-    display:flex;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: larger;
+}
+
+
+.firstone:hover,
+.secondone:hover,
+.thirdone:hover {
+    background-color: rgb(255, 218, 174);
+    font-weight: 500;
+    border: 1px solid rgb(255, 218, 174);
+    border-radius: 30px;
+
 }

@@ -1,0 +1,148 @@
+*{
+    padding: 0%;
+    margin:0%;
+    background-color: bisque;
+    cursor: url(../img/icons8-hand-cursor-48.png),auto;
+}
+.container{
+    height: 100;
+    width: 100;
+    /* border: 3px solid red; */
+}
+
+.top{
+    height: 19vh;
+    width: 100;
+    /* border: 3px solid aqua; */
+}
+
+.logo{
+    width: 100px;
+}
+.logo:hover{
+    /* border: 2px solid rgb(177, 61, 61); */
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: rgb(255, 218, 174);;
+}
+.ul{
+    list-style-type: none;
+    display: flex;
+    column-gap: 80px;
+}
+.ul li {
+    font-size: larger;
+}
+.ul li:hover{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5vw;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+/* middle section */
+
+.middle{
+    width: 99%;
+    height: 65vh;
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    flex-direction: row;
+}
+.downone{
+    width: 40%;
+    height: 65vh;
+    /* border: 2px solid wheat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+    font-size:50px;
+    padding-left: 40px;
+}
+.upone{
+    width: 60%;
+    height: 65vh;
+    /* border: 2px solid wheat; */
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+/*  under upone */
+
+
+.header{
+    height: 5vh;
+    width: 50%;
+    text-transform: uppercase;
+    /* border: 2px solid rgb(238, 171, 61); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: rgb(255, 218, 174);
+    font-weight: bolder;
+}
+.name > input{
+    height: 5vh;
+    width: 480px;
+    border: 2px solid rgb(238, 171, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.email > input{
+    height:5vh;
+    width: 480px;
+    border: 2px solid rgb(238, 171, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+.message > input{
+    height: 25vh;
+    width: 480px;
+    border: 2px solid rgb(238, 171, 61);
+    display: flex;
+    /* padding-left:140px; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+.send{
+    height:5vh;
+    width: 50%;
+    border: 2px solid rgb(238, 171, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+
+/* footer */
+
+.footer-flex {
+    display: flex;
+    margin: 30px 5vw;
+    width: 500px;
+    justify-content: space-evenly;
+
+}

@@ -1,98 +1,126 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     background-color: bisque;
+    cursor: url(../img/icons8-hand-cursor-48.png), auto;
+
 }
+
 .container {
-    width:100;
-    height:100;
+    width: 100;
+    height: 100;
     display: flex;
     flex-direction: column;
 }
-.top{
+
+.top {
     height: 19vh;
-    width:100;  
+    width: 100;
 }
-.nav{
+
+.nav {
     height: 19vh;
-    width: 99%;    
+    width: 99%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    font-size: xx-large;  
+    font-size: xx-large;
 }
-.footer{
+
+.footer {
     height: 60.6vh;
-    width:100;   
+    width: 100;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.upone{
+
+.upone {
     width: 100%;
     height: 30vh;
     display: flex;
     justify-content: space-evenly;
-    padding-top:100px ;
+    padding-top: 100px;
 }
-.one , .three ,.five{
-    width:20vw;
+
+.one,
+.three,
+.five {
+    width: 20vw;
     height: 10vh;
     border: 2px solid rgb(238, 171, 61);
-    border-radius:50%;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
- .one:hover, .five:hover, .three:hover{
+
+.one:hover,
+.five:hover,
+.three:hover {
     background-color: rgb(255, 218, 174);
 }
-.two , .four ,.six{
-    width:20vw;
+
+.two,
+.four,
+.six {
+    width: 20vw;
     height: 10vh;
     border: 2px solid rgb(238, 171, 61);
-    border-radius:50px;
+    border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
- .two:hover, .four:hover, .six:hover{
+
+.two:hover,
+.four:hover,
+.six:hover {
     background-color: rgb(255, 218, 174);
 }
-.downone{
+
+.downone {
     width: 100%;
     height: 30vh;
     display: flex;
     justify-content: space-evenly;
 }
-.logo{
+
+.logo {
     width: 100px;
 }
-.logo:hover{
+
+.logo:hover {
     border: 2px solid rgb(177, 61, 61);
     border-radius: 100%;
     cursor: pointer;
-    background-color: rgb(255, 218, 174);;
+    background-color: rgb(255, 218, 174);
+    ;
 }
-.ul{
+
+.ul {
     list-style-type: none;
     display: flex;
     column-gap: 80px;
 }
+
 .ul li {
     font-size: larger;
 }
-.ul li:hover{
+
+.ul li:hover {
     font-weight: 600;
     text-transform: uppercase;
 }
-.ul li a{
+
+.ul li a {
     text-decoration: none;
     color: black;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     margin: 0px 5vw;
@@ -100,35 +128,25 @@
     margin-bottom: 35px;
 }
 
-.c-lang > img{
+.c-lang>img,
+.html-lang,
+.css-lang,
+.JAVASCRIPT-lang,
+.cc-lang,
+.PYTHON-lang {
     width: 40px;
 }
 
-.one{
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
     display: flex;
     column-gap: 10px;
 }
 
-.name{
+.name {
     font-size: x-large;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
