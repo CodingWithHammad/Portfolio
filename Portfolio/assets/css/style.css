@@ -1,9 +1,11 @@
 * {
     background-color: bisque;
+    padding: 0;
+    margin: 0;
     cursor: url(../img/icons8-hand-cursor-48.png), auto;
 }
 
-:root{
+:root {
     --color: rgb(255, 218, 174);
 }
 
@@ -12,7 +14,7 @@
     height: 60vh;
 }
 
-.sectiopn-first{
+.sectiopn-first {
 
     width: 40vw;
     display: flex;
@@ -56,10 +58,10 @@
     width: 50vw;
     justify-content: center;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 
-.Name-Section>div{
+.Name-Section>div {
     height: 30vh;
 }
 
@@ -98,7 +100,7 @@
     font-size: x-large;
 }
 
-.aboutDiv{
+.aboutDiv {
     height: fit-content;
 }
 
@@ -115,13 +117,15 @@
 
 .footer-flex {
     display: flex;
+    position: fixed;
+    bottom: 0;
     margin: 30px 5vw;
     width: 500px;
     justify-content: space-evenly;
 
 }
 
-.about> div{
+.about>div {
     font-weight: 700;
     text-align: center;
     font-size: x-large;
@@ -129,37 +133,67 @@
 }
 
 @media (max-width:899px) {
-    .flex{
+    .flex {
         flex-direction: column;
     }
 
-    .sectiopn-first{
+    .sectiopn-first {
         width: 100vw;
     }
-    .Name-Section{
+
+    .Name-Section {
         width: 90vw;
         margin: 0px auto;
     }
 
-    /* .Name-Section > div :first-child{
-        height: 35vh;
-    } */
-
-    /* .TSContent{
-        padding: 20px 0px;
-    } */
-
-    .Name-Section>div{
+    .Name-Section>div {
         height: fit-content;
     }
-    .Name{
+
+    .Name {
         font-size: 67px;
     }
-    .about{
+
+    .about {
         height: 50vh;
-        padding-bottom: 10vh;
+        padding-bottom: 5vh;
+    }
+
+    .footer-flex {
+        margin: 0px 5vw;
+        position: static;
+        margin: 0px auto;
+    }
+    
+    .ul {
+        column-gap: 25px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .sectiopn-first > img{
+        width: 325px;
+        height: auto;
+    }
+    .ul{
+        column-gap: 15px;
     }
     .footer-flex{
-        margin: 0px 5vw;
+        width: auto;
     }
+    .Name{
+        font-size: 55px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .TSContent{
+        font-size: 30px;
+    }
+   .nav{
+    flex-direction: column;
+    align-items: flex-start;
+
+   }
 }
