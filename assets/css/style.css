@@ -81,11 +81,16 @@
 
 .ul li {
     font-size: larger;
+    position: sticky;
 }
 
 .ul li:hover {
     font-weight: 600;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    text-decoration: underline;
+    text-decoration-color: brown;
+    /* text-decoration-thickness: 2px; */
+    text-decoration-style:solid;
 }
 
 .ul li a {
@@ -93,6 +98,9 @@
     color: black;
 }
 
+.ul li a:hover{
+    color: brown;
+}
 
 .about {
     padding: 20px;
@@ -112,6 +120,7 @@
     background-color: var(--color);
     border: 1px solid var(--color);
     border-radius: 30px;
+    height: fit-content;
 
 }
 
@@ -171,37 +180,6 @@
 
 }
 
-@media (max-width:500px) {
-    .sectiopn-first > img{
-        width: 275px;
-        height: auto;
-    }
-    .ul{
-        column-gap: 10px;
-        font-size: small;
-    }
-    .footer-flex{
-        width: auto;
-    }
-    .Name{
-        font-size: 40px;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-    .TSContent{
-        font-size: 30px;
-    }
-   .nav{
-    flex-direction: column;
-    align-items: center;
-   }
-   .about{
-    font-size: large;
-   }
-
-}
-
 @media screen and (min-width:900px) and (max-width:1150px) {
     .flex {
         flex-direction: column;
@@ -243,4 +221,34 @@
     }
     
 }
-/* @media screen and (min-width:900px) and (max-width:1150px */
+
+@media (max-width:500px) {
+    .sectiopn-first > img{
+        width: 275px;
+        height: auto;
+    }
+    .ul{
+        column-gap: 15px;
+        font-size: small;
+    }
+    .footer-flex{
+        width: auto;
+    }
+    .Name{
+        font-size: 40px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .TSContent{
+        font-size: 30px;
+    }
+   .nav{
+    flex-direction: column;
+    align-items: center;
+   }
+   .about{
+    font-size: large;
+   }
+
+}
