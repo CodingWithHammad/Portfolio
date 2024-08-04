@@ -199,6 +199,7 @@
    .about{
     font-size: large;
    }
+
 }
 
 @media screen and (min-width:900px) and (max-width:1150px) {
@@ -216,7 +217,7 @@
     }
 
     .Name-Section>div {
-        height: fit-content;
+        height: 25vh;
     }
 
     .Name {
