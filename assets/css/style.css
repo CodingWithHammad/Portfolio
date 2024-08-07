@@ -22,20 +22,6 @@
 }
 
 
-.logo {
-    width: 100px;
-
-}
-
-.logo:hover {
-    border: 2px solid rgb(177, 61, 61);
-    border-radius: 100%;
-    cursor: pointer;
-    background-color: var(--color);
-    ;
-}
-
-
 .flex {
     display: flex;
     justify-content: space-evenly;
@@ -65,42 +51,6 @@
     height: 30vh;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 5vw;
-    align-items: center;
-    margin-bottom: 35px;
-}
-
-.ul {
-    list-style-type: none;
-    display: flex;
-    column-gap: 80px;
-}
-
-.ul li {
-    font-size: larger;
-    position: sticky;
-}
-
-.ul li:hover {
-    font-weight: 600;
-    /* text-transform: uppercase; */
-    text-decoration: underline;
-    text-decoration-color: brown;
-    /* text-decoration-thickness: 2px; */
-    text-decoration-style:solid;
-}
-
-.ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-.ul li a:hover{
-    color: brown;
-}
 
 .about {
     padding: 20px;
@@ -174,9 +124,7 @@
         margin: 0px auto;
     }
     
-    .ul {
-        column-gap: 25px;
-    }
+   
 
 }
 
@@ -209,12 +157,7 @@
         margin: 0px auto;
     }
     
-    .ul {
-        column-gap: 70px;
-    }
-    .nav{
-        justify-content: space-around;
-    }
+   
     
 }
 
@@ -223,16 +166,13 @@
         width: 275px;
         height: auto;
     }
-    .ul{
-        column-gap: 15px;
-        font-size: small;
-    }
+  
     .footer-flex{
         width: auto;
     }
 
-    .Name-Section>div {
-        height: 25vh;
+    .Name-Section{
+        row-gap: 20px;
     }
 
     .Name{
@@ -244,10 +184,7 @@
     .TSContent{
         font-size: 30px;
     }
-   .nav{
-    flex-direction: column;
-    align-items: center;
-   }
+ 
    .about{
     font-size: large;
    }
