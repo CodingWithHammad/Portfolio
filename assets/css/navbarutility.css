@@ -1,14 +1,12 @@
 .logo {
-    width: 100px;
+    width: 125px;
+    filter: drop-shadow(0 0 7px #9c33ff);
 
 }
 
 .logo:hover {
-    border: 2px solid rgb(177, 61, 61);
     border-radius: 100%;
-    cursor: pointer;
-    background-color: var(--color);
-    ;
+
 }
 
 .nav {
@@ -34,18 +32,17 @@
     font-weight: 600;
     /* text-transform: uppercase; */
     text-decoration: underline;
-    text-decoration-color: brown;
+    text-decoration-color: #800080;;
     /* text-decoration-thickness: 2px; */
     text-decoration-style: solid;
 }
 
 .ul li a {
     text-decoration: none;
-    color: black;
+    color:#0d00f2;
 }
 
-.ul li a:hover {
-    color: brown;
+.ul li a:hover {color:#800080;
 }
 
 @media (max-width:1149px) {
