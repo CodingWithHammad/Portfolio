@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,59 @@
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/navbarutility.css">
 </head>
+
 <body>
+    <div class="stars">
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+        <div style="color: #8368d4;" class="star"></div>
+    </div>
     <div class="container">
         <header class="top">
             <nav class="navbar">
@@ -26,25 +79,28 @@
         <main class="middle">
             <div class="downone">
                 lets connect with each other and work together
-                
+
 
             </div>
             <div class="upone">
                 <div class="header">contact me</div>
                 <div class="name">
-                    <input class="name" type="text" placeholder="ENTER YOUR NAME">
+                    <input class="name" id="name" type="text" placeholder="ENTER YOUR NAME" required>
                 </div>
                 <div class="email">
-                    <input class="email" type="text" placeholder="ENTER YOUR EMAIL">
+                    <input class="email" id="email" type="text" placeholder="ENTER YOUR EMAIL" required>
                 </div>
                 <div class="message">
-                    <input class="message" type="text" placeholder="ENTER YOUR MESSAGE">
+                    <input class="message" id="message" type="text" placeholder="ENTER YOUR MESSAGE" required>
                 </div>
-                <div class="send">
-                    <img src="assets/svg/send.png" alt="message">
-                    send</div>
+                <button type="submit" class="send">Send</button>
+
             </div>
-           
+            <!-- <button class="send">
+                <img src="assets/svg/send.png" alt="message">
+                send
+            </button> -->
+
 
         </main>
         <footer>
@@ -57,6 +113,17 @@
         </footer>
 
     </div>
-    
+
 </body>
+<script src="../script.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    (function () {
+        emailjs.init({
+            publicKey: "w8ERxaRJzwt22RAF5",
+        });
+    })();
+</script>
+
 </html>
