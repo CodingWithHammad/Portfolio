@@ -67,7 +67,7 @@ body{
 .upone {
     height: 19vh;
     width: 99%;
-    color:#3300cc;
+   
     /* background-color: bisque; */
     /* border: 2px solid black; */
     display: flex;
@@ -78,7 +78,14 @@ body{
     /* padding-top: 0px; */
 
 }
-.upone:hover{
+
+
+.pro{
+    color: #3300cc;
+    
+
+}
+.pro:hover{
     color:#ff4d88;
 }
 

@@ -21,13 +21,21 @@
 .navBar {
     height: 19vh;
     width: 99%;
+    color:#3300cc;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    font-size: xx-large;
+    font-weight: 700;
+    font-size: x-large;
 }
+.know{
+    color:#3300cc;
 
+}
+.know:hover{
+    color:#ff4d88;
+}
 .footer {
     height: 60.6vh;
     width: 100;
