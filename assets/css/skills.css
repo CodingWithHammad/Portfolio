@@ -50,7 +50,8 @@
 .five {
     width: 20vw;
     height: 10vh;
-    border: 2px solid rgb(238, 171, 61);
+    color: #3300cc;
+    border: 2px solid #9c33ff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -60,7 +61,9 @@
 .one:hover,
 .five:hover,
 .three:hover {
-    background-color: rgb(255, 218, 174);
+    color:#ff4d88;
+    background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
+    /* background-color: rgb(255, 218, 174); */
 }
 
 .two,
@@ -68,8 +71,9 @@
 .six {
     width: 20vw;
     height: 10vh;
-    border: 2px solid rgb(238, 171, 61);
+    border: 2px solid  #9c33ff ;
     border-radius: 50px;
+    color: #3300cc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +82,9 @@
 .two:hover,
 .four:hover,
 .six:hover {
-    background-color: rgb(255, 218, 174);
+    color:#ff4d88;
+    background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
+    /* background-color: rgb(255, 218, 174); */
 }
 
 .downone {
@@ -93,10 +99,10 @@
 }
 
 .logo:hover {
-    border: 2px solid rgb(177, 61, 61);
+    /* border: 2px solid rgb(177, 61, 61); */
     border-radius: 100%;
     cursor: pointer;
-    background-color: rgb(255, 218, 174);
+    /* background-color: rgb(255, 218, 174); */
     ;
 }
 
@@ -117,7 +123,7 @@
 
 .ul li a {
     text-decoration: none;
-    color: black;
+    color: #9c33ff;
 }
 
 .navbar {
