@@ -252,8 +252,16 @@ body{
     /* border: 1px solid #ffe4c4; */
     position: fixed;
     right: 50px;
-    bottom: 30px;
+    bottom: 10px;
     font-size: larger;
+}
+
+.motabhai{
+    color: #ff4d88;
+}
+
+.motabhai:hover{
+    color: white;
 }
 
 @media (max-width:1000px) {
