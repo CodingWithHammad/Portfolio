@@ -6,12 +6,14 @@
     cursor: url(../img/icons8-hand-cursor-48.png), auto;
 
 }
-body{
+
+body {
     background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
     min-height: 100vh;
     background-repeat: no-repeat;
 
 }
+
 .logo {
     width: 100px;
 }
@@ -70,13 +72,14 @@ body{
 }
 
 
-.pro{
+.pro {
     color: #3300cc;
-    
+
 
 }
-.pro:hover{
-    color:#ff4d88;
+
+.pro:hover {
+    color: #ff4d88;
 }
 
 .downone {
@@ -184,25 +187,28 @@ body{
 .secondone:hover,
 .thirdone:hover,
 .button:hover,
-.button > a:hover {
+.button>a:hover {
     font-weight: 500;
     border-radius: 30px;
-    color:#ff4d88;
+    color: #ff4d88;
 
 
 }
-.button{
+
+.button {
     color: #3300cc;
     font-weight: 700;
     border: 1px solid #63e;
 
 }
-.button>a{
+
+.button>a {
     color: #3300cc;
     font-weight: 700;
 }
-.button>a:hover{
-    color:#ff4d88;
+
+.button>a:hover {
+    color: #ff4d88;
     font-weight: 700;
 }
 
@@ -217,11 +223,11 @@ body{
     font-size: larger;
 }
 
-.motabhai{
+.motabhai {
     color: #ff4d88;
 }
 
-.motabhai:hover{
+.motabhai:hover {
     color: white;
 }
 
@@ -232,11 +238,13 @@ body{
         flex-direction: column;
     }
 
-    .upone{
-    margin-bottom: 30px;
+    .upone {
+        margin-bottom: 30px;
     }
 
-    .coverfirst , .coversecond , .coverthird {
+    .coverfirst,
+    .coversecond,
+    .coverthird {
         display: flex;
         flex-direction: row;
         column-gap: 10vw;
@@ -244,11 +252,21 @@ body{
         align-items: center;
         margin: 0px auto;
     }
+    .button{
+        right: 20px;
+    }
 
 }
 
 @media (max-width:650px) {
-    .coverfirst , .coversecond , .coverthird {
+
+    .upone {
+        margin: 30px 0px;
+    }
+
+    .coverfirst,
+    .coversecond,
+    .coverthird {
         display: flex;
         flex-direction: column;
         row-gap: 10vw;
@@ -257,4 +275,32 @@ body{
         margin: 0px auto;
     }
 
+    .coverfirst>.first,
+    .coverfirst>.first>video,
+    .coverfirst>.firstone,
+    .coversecond>.second,
+    .coversecond>.second>video,
+    .coversecond>.secondone,
+    .coverthird>.third,
+    .coverthird>.third>video,
+    .coverthird>.thirdone {
+        width: 80vw;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ul {
+        column-gap: 15px;
+    }
+
+    .button{
+        position: relative;
+        right: 0;
+        margin: 20px auto;
+        width: 80vw;
+
+
+    }
 }
