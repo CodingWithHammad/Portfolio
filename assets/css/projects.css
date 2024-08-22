@@ -8,7 +8,7 @@
 }
 body{
     background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
-    height: 100vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
 
 }
@@ -48,34 +48,24 @@ body{
     justify-content: space-between;
     margin: 0px 5vw;
     align-items: center;
-    margin-bottom: 35px;
 }
 
 .container {
-    /* background-color: bisque; */
-    width: 100;
-    height: 100;
     display: flex;
     flex-direction: column;
 }
 
 .top {
-    height: 19vh;
     width: 100;
 }
 
 .upone {
-    height: 19vh;
     width: 99%;
-   
-    /* background-color: bisque; */
-    /* border: 2px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
     font-size: x-large;
-    /* padding-top: 0px; */
 
 }
 
@@ -90,9 +80,7 @@ body{
 }
 
 .downone {
-    height: 54.6vh;
-    width: 100;
-    /* border:2px solid red; */
+    row-gap: 20px;
     display: inline-flex;
     position: relative;
 }
@@ -102,6 +90,8 @@ body{
 .coversecond,
 .coverthird {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
@@ -110,8 +100,6 @@ body{
     height: 25vh;
     border: 2px solid black;
     border-radius: 50px;
-    /* margin-top: 4vh; */
-    margin-left: 6vw;
 }
 
 .coverfirst>.first>video {
@@ -127,10 +115,7 @@ body{
     height: fit-content;
     padding: 30px 10px;
     color: #3300cc;
-    /* border: 3px solid rgb(174, 255, 205); */
     border-radius: 50px;
-    margin-top: 27vh;
-    margin-left: -25vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,8 +127,6 @@ body{
     height: 25vh;
     border: 2px solid black;
     border-radius: 50px;
-    margin-top: 5vh;
-    margin-left: 6vw;
 }
 
 .coversecond>.second>video {
@@ -160,11 +143,8 @@ body{
     width: 25vw;
     height: fit-content;
     padding: 30px 10px;
-    /* border: 3px solid rgb(255, 218, 174); */
     color: #3300cc;
     border-radius: 50px;
-    margin-top: 32vh;
-    margin-left: -25vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,7 +156,6 @@ body{
     height: 25vh;
     border: 2px solid black;
     border-radius: 50px;
-    margin-left: 6vw;
 
 }
 
@@ -192,11 +171,8 @@ body{
     width: 25vw;
     height: fit-content;
     padding: 30px 10px;
-    /* border: 3px solid rgb(255, 218, 174); */
     color: #3300cc;
     border-radius: 50px;
-    margin-top: 27vh;
-    margin-left: -25vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,39 +185,25 @@ body{
 .thirdone:hover,
 .button:hover,
 .button > a:hover {
-    /* background-color: rgb(255, 218, 174); */
     font-weight: 500;
-    /* border: 1px solid rgb(255, 218, 174); */
     border-radius: 30px;
-    background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
-    /* border: 2px solid #ff4d88; */
-    /* color: #800080; */
     color:#ff4d88;
 
 
 }
 .button{
-    /* text-decoration: none; */
     color: #3300cc;
     font-weight: 700;
     border: 1px solid #63e;
-    /* border: 1px solid #63e; */
-    background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
 
 }
 .button>a{
-    /* text-decoration: none; */
     color: #3300cc;
     font-weight: 700;
-    /* border: 1px solid #63e; */
-    background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
-
 }
 .button>a:hover{
-    /* text-decoration: none; */
     color:#ff4d88;
     font-weight: 700;
-    /* color: black; */
 }
 
 .button {
@@ -249,7 +211,6 @@ body{
     height: auto;
     padding: 14px 44px;
     border-radius: 24px;
-    /* border: 1px solid #ffe4c4; */
     position: fixed;
     right: 50px;
     bottom: 10px;
@@ -265,35 +226,35 @@ body{
 }
 
 @media (max-width:1000px) {
-    .downone {
-        border: 3px solid black;
-        padding-right: 30px;
 
+    .downone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .upone{
+    margin-bottom: 30px;
+    }
+
+    .coverfirst , .coversecond , .coverthird {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10vw;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
     }
 
 }
 
 @media (max-width:650px) {
-    .downone {
+    .coverfirst , .coversecond , .coverthird {
         display: flex;
         flex-direction: column;
-        border: 3px solid rgb(229, 229, 10);
-        color: aqua;
-    }
-
-    .coverfirst {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .coversecond {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .coverthird {
-        display: flex;
-        flex-direction: row;
+        row-gap: 10vw;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
     }
 
 }
