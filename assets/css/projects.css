@@ -54,6 +54,7 @@ body {
 
 .container {
     display: flex;
+    row-gap: 50px;
     flex-direction: column;
 }
 
@@ -84,7 +85,8 @@ body {
 
 .downone {
     row-gap: 20px;
-    display: inline-flex;
+    display: flex;
+    justify-content: space-evenly;
     position: relative;
 }
 

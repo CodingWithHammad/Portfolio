@@ -15,14 +15,14 @@ body {
 
 
 .container {
-    height: 100;
-    width: 100;
+    min-height: 100vw;
+    width: 100vw;
     /* border: 3px solid red; */
 }
 
 .top {
-    height: 19vh;
-    width: 100;
+    /* height: 19vh; */
+    width: 100vw;
     /* border: 3px solid aqua; */
 }
 
@@ -68,35 +68,36 @@ body {
 /* middle section */
 
 .middle {
-    width: 99%;
-    height: 65vh;
+    width: 90%;
+    /* height: 65vh; */
     /* border: 2px solid rebeccapurple; */
     display: flex;
-    flex-direction: row;
+    margin: 0px auto;
 }
 
 .downone {
     width: 40%;
-    height: 65vh;
-    /* border: 2px solid wheat; */
+    /* height: 65vh; */
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     font-style: oblique;
     font-size: 50px;
-    padding-left: 40px;
     color: #3300cc;
 }
 
-.downone:hover{
+.downone:hover {
     color: #ff4d88;
 }
+
 .upone {
     width: 60%;
-    height: 65vh;
+    /* height: 65vh; */
     /* border: 2px solid wheat; */
     display: flex;
     flex-direction: column;
+    row-gap:30px;
     justify-content: space-around;
     align-items: center;
 
@@ -106,14 +107,14 @@ body {
 
 
 .header {
-    height: 5vh;
+    /* height: 5vh; */
     width: 480PX;
     text-transform: uppercase;
     /* border: 2px solid rgb(238, 171, 61); */
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#3300cc;
+    color: #3300cc;
     border-radius: 30px;
     /* background-color: rgb(255, 218, 174); */
     font-size: xx-large;
@@ -121,11 +122,13 @@ body {
     /* background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%); */
 
 }
-.header:hover{
+
+.header:hover {
     color: #ff4d88;
 }
+
 .name>input {
-    height: 5vh;
+    /* height: 5vh; */
     width: 480px;
     color: #ff4d88;
     font-weight: 600;
@@ -139,7 +142,7 @@ body {
 }
 
 .email>input {
-    height: 5vh;
+    /* height: 5vh; */
     width: 480px;
     /* border: 2px solid rgb(238, 171, 61); */
     display: flex;
@@ -155,7 +158,7 @@ body {
 
 .message {
 
-    height: 25vh;
+    /* height: 25vh; */
     width: 480px;
     background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
     padding-top: 10px;
@@ -195,4 +198,115 @@ body {
     width: 500px;
     justify-content: space-evenly;
 
+}
+
+@media (max-width:850px) {
+    .unique {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .right {
+        width: 100%;
+        height: 70%;
+        /* border: 2px solid red; */
+    }
+
+    .downone {
+        width: 80vw;
+    }
+
+    .left {
+        margin-top: 30px;
+        height: 100%;
+        width: 100%;
+        /* border: 2px solid blue; */
+    }
+
+    .upone {
+        justify-content: center;
+        flex-direction: row;
+
+    }
+
+    .upone>.first>img {
+        height: auto;
+        width: 180px;
+
+    }
+
+    .upone>.second>img {
+        height: auto;
+        width: 160px;
+    }
+
+    .middle , .upone{
+        flex-direction: column;
+        align-items: center;
+    }
+    .middle{
+        row-gap: 80px;
+    }
+    .footer-flex{
+        margin: 30px auto;
+    }
+    .upone{
+        row-gap: 20px;
+    }
+    .name,.email{
+        padding: 5px;
+    }
+}
+
+@media (max-width:500px) {
+    .upone {
+        height: auto;
+        width: 100%;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 5px;
+        /* border: 2px solid red; */
+    }
+
+    .upone>.first>img {
+        margin: 0%;
+    }
+
+    .upone>.second>img {
+        margin: 0%;
+
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ul {
+        column-gap: 15px;
+    }
+
+    .left {
+        padding-top: 30px;
+    }
+
+    .downone {
+        font-size: medium;
+    }
+    .middle{
+        row-gap: 40px;
+    }
+     .lullabhai{
+        font-size: xx-large;
+        font-weight: 700;
+     }
+    .name> input , .email> input{
+        width: 70vw;
+    }
+    .send,.message ,.footer-flex ,.header{
+        width: 72vw;
+    }
 }
