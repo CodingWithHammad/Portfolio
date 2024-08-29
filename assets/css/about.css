@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    cursor: url(../img/icons8-hand-cursor-48.png), auto;
+    cursor: url(../img/cursor.png), auto;
 }
 
 body {
@@ -149,7 +149,6 @@ body {
     /* color: #800080; */
     color: #ff4d88;
     background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
-    cursor: pointer;
 }
 
 
